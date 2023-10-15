@@ -54,7 +54,7 @@ class Login extends StatelessWidget {
                             type: TextInputType.emailAddress,
                             validate: (String? value) {
                               if (value!.isEmpty) {
-                                return 'Please enter your email address';
+                                return 'Please enter  email address';
                               }
                             },
                             prefix: Icons.email,
